@@ -1,8 +1,40 @@
 .my-button{
     border-radius: 20px;
-   cursor: pointer;
     height: 100px;
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: background-color 200ms ease-in-out;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.my-button--primary:hover{
+    background-color: rgb(243, 169, 78);
+}
+.my-button--bordered:hover{
+    background-color: rosybrown;
+}
+.my-button--primary{
     background: red;
+    color: white;
+    /* border: 1px solid black; */
+    border: none;
+}
+.my-button--bordered{
+    border: 5px solid black;
+    color: white;
+    background-color: royalblue;
+}
+.my-button--lg{
+    min-height: 200px;
+    min-width: 200px;
+    font-size: 100px;
+}
+.my-button--sm{
+    min-height: 50px;
+    min-width: 50px;
+    font-size:25px;
+}
+.my-button--md{
+    /* pass */
 }
