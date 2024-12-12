@@ -19,19 +19,12 @@ export const Input = ({
 
   return (
     <div className="input-wrapper">
-      <input
-        type={type}
-        placeholder={placeholder}
-        value={value}
-        onChange={handleChange}
-        disabled={disabled}
-        className={`input-field ${isDanger ? "danger" : ""}`}
-      />
       {label && (
         <label className={`input-label ${isDanger ? "danger" : ""}`}>
           {label}
         </label>
       )}
+      <input type={type} placeholder={placeholder} value={value} onChange={handleChange} disabled={disabled} className={`input-field ${isDanger ? "danger" : ""}`}/>
     </div>
   );
 };

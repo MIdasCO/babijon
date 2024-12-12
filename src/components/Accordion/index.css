@@ -1,0 +1,29 @@
+.accordion-container {
+  margin: 20px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 0;
+  background-color: transparent;
+}
+.accordion-toggle-btn {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: black; 
+  transition: transform 0.3s ease;
+}
+.accordion-content {
+  padding: 10px 15px;
+  background-color: transparent;
+  border:none;
+}

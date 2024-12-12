@@ -1,0 +1,25 @@
+.typography {
+    margin-top: 0; 
+    margin-left: 50px;
+    margin-bottom: 1em;
+    line-height: 2;
+    text-align: left; 
+}
+  
+.typography-sm {
+    margin-top: 80px;
+    font-size: 14px; 
+}
+  
+.typography-md {
+    margin-top: 50px;
+    font-size: 16px; 
+}
+  
+.typography-lg {
+    margin-top: 50px;
+    font-size: 20px; 
+}
+.typography::first-line {
+    text-indent: 2em;
+}
