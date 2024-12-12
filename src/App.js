@@ -1,10 +1,17 @@
 import { Button } from "./components/Button"
+
 function App() {
   return(
     <div>
-      <Button variant = "bordered" size="sm">Kick me!</Button> 
-      <Button size="md">Click Me!</Button> 
-      <Button variant = "bordered" size="lg">Kick me!</Button> 
+      <Button variant = "bordered" size="lg">lg, primary</Button> 
+      <Button variant = "bordered" size="md">md, primary</Button> 
+      <Button variant = "bordered" size="sm">sm, primary</Button> 
+      <Button variant = "bordered" size="md">Hover!</Button> 
+
+      <Button size="lg">lg, primary</Button> 
+      <Button size="md">md, primary</Button> 
+      <Button size="sm">sm, primary</Button> 
+      <Button size="md">Hover!</Button> 
 
     </div>
   )
